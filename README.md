@@ -1,6 +1,6 @@
 ## Confusion-Geometry Rebalancing for Long-Tailed Adversarial Training
 
-Dataset building:
+# Dataset building:
 
 python make_cifar10_lt.py --data_dir .\data --output_dir .\data\CIFAR10-LT-IR50 --ir 50 --seed 1 
 
