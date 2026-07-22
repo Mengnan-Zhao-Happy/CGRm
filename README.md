@@ -1,4 +1,4 @@
-# Confusion-Geometry Rebalancing for Long-Tailed Adversarial Training
+# Confusion-Geometry Rebalancing for Long-Tailed AT
 
 ## Dataset building:
 
