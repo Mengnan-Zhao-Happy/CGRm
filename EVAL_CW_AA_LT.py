@@ -2,7 +2,7 @@
 
 The script uses the same ImageFolder LT data path convention as the training
 scripts: data_root/train and data_root/test. It reports all-class and tail-class
-robust accuracy, matching the structure of RobustLT Table 2.
+robust accuracy.
 """
 
 import argparse
