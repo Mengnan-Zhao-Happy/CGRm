@@ -1,13 +1,5 @@
 """
 Standalone RoBal-style training on long-tailed ImageFolder datasets.
-
-The script follows the AT_LT.py / TRADES_LT.py training and evaluation
-conventions, while adding the main RoBal ingredients:
-  1) a scale-invariant cosine classifier,
-  2) class-aware and pair-aware margin engineering during training,
-  3) boundary adjustment during evaluation.
-
-It supports CIFAR10-LT, CIFAR100-LT, and TinyImageNet-LT ImageFolder datasets.
 """
 
 import argparse
