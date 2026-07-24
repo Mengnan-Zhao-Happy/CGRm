@@ -1,15 +1,5 @@
 """
 CGR-LT: Confusion-Geometry Rebalanced Robust Long-Tail Training.
-
-This standalone script is intended as a research prototype. It keeps the
-existing DAFA/RobustLT/CFA/UDR files untouched and combines several feasible
-long-tail robust training ideas:
-
-1) RobustLT-style class-wise perturbation balancing (CPB + AIW).
-2) Feedback loss reweighting from per-class robust accuracy and confusion.
-3) Class-wise TRADES beta for a per-class clean-robust tradeoff.
-4) Balanced-softmax style log-prior adjusted CE.
-5) Confusion-geometry graph and pairwise margin for tail-to-head confusion.
 """
 
 import argparse
